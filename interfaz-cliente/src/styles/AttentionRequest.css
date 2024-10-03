@@ -1,0 +1,148 @@
+.container {
+  background-color: white;
+  opacity: 0.8;
+  /* background-color: rgba(255, 255, 255, 0.5); Blanco semitransparente */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Sombra gris */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+.content-page-layout {
+  margin-top: 2px;
+}
+.prueba{
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(146, 142, 142);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    background-color: #fff;
+    /* margin: 0.5%; */
+    min-height: 50px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.tab {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #282828;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.tab.active {
+  background-color: #383838;
+}
+
+.search {
+  position: relative;
+  width: 115px;
+}
+
+.search input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  /* background-color: #282828; */
+  color: #941f1f;
+}
+
+.search input::placeholder {
+  color: #777;
+}
+
+.dropdown {
+  position: relative;
+  width: 150px;
+}
+
+.dropdown select {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #282828;
+  color: #a32121;
+  appearance: none; /* Remove default arrow */
+}
+
+.dropdown select::-ms-expand {
+  display: none; /* Remove default arrow for IE */
+}
+
+.dropdown select:-webkit-appearance {
+  appearance: none; /* Remove default arrow for Safari */
+}
+
+.dropdown select:focus {
+  outline: none;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.checkbox input {
+  margin-right: 5px;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #383838;
+}
+
+th {
+  /* background-color: #c72a2a; */
+  font-weight: bold;
+}
+
+.project-icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  background-color: #282828;
+  border-radius: 50%;
+}
+
+.progress {
+  display: flex;
+  align-items: center;
+  width: 150px;
+  height: 15px;
+  background-color: #383838;
+  border-radius: 10px;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #5cb85c;
+  border-radius: 10px;
+}
+.borderTabble {
+  --bs-table-bg: none;
+  /* border-bottom: none; */
+  border-bottom: 1px solid #dfdfdf;
+    text-align: center;
+    padding: 5px;
+}

@@ -1,0 +1,72 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+/* Add this to your CSS file */
+.user-menu {
+  position: relative;
+  display: inline-block;
+}
+
+.user-menu-button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.user-menu-button:hover {
+  background-color: #444;
+}
+
+.user-menu-content {
+  position: absolute;
+  top: 57px;
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 16px;
+  width: 200px;
+  z-index: 2;
+}
+
+.user-menu-content ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.user-menu-content li {
+  margin-bottom: 10px;
+}
+
+.user-menu-content a {
+  color: #337ab7;
+  text-decoration: none;
+}
+.fontplaceholder::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+}
+.user-menu-content a:hover {
+  color: #23527c;
+}
+.colorNotification{
+  color: #000;
+}
+.notifications-subTitle {
+  /* font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;: 600;: 400 ;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100; */
+  /* font-family: "Poppins", sans-serif;
+  font-weight: 400;: 600;: 300;
+  font-style: normal; */
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+}

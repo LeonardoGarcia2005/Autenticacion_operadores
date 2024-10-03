@@ -1,0 +1,131 @@
+.grafica-container {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Agregar sombra predeterminada */
+  transition: box-shadow 0.3s ease; /* Transición suave para la sombra */
+  background-color: #fff; /* Color de fondo predeterminado */
+  margin-bottom: 18px;
+  min-height: 80px;
+  border-radius: 8px;
+}
+
+.grafica-container:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+.card-selected {
+  animation: pulse 0.5s infinite alternate; /* Animación pulsante cuando se selecciona el card */
+  /* background-image: linear-gradient(to top, #f9fafb, #ebf4fb, #dbeefa, #c9e9f8, #b6e4f4); */
+ background-image: linear-gradient(
+    to top,
+    #dee8f0,
+    #e8edf4,
+    #f1f3f8,
+    #f8f9fb,
+    #ffffff
+  );
+  /* Cambiar el color de fondo cuando está seleccionado */
+}
+.graphicsStyle{
+
+    width: 100%;
+    max-width: 400px;
+    min-height: 270px;
+    /* // marginLeft:45px; */
+
+}
+.grafica-containerArriba {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra predeterminada */
+  transition: box-shadow 0.3s ease; /* Transición suave para la sombra */
+  background-color: #fff; /* Color de fondo predeterminado */
+  min-height: 80px;
+  margin-bottom: 18px;
+  border-radius: 8px;
+}
+.grafica-Actividades {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra predeterminada */
+  transition: box-shadow 0.3s ease; /* Transición suave para la sombra */
+  background-color: #fff; /* Color de fondo predeterminado */
+  min-height: 80px;
+  margin-bottom: 18px;
+  border-radius: 8px;
+}
+
+.contenedorImagenArriba {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /* Sombra predeterminada */
+  transition: box-shadow 0.3s ease; /* Transición suave para la sombra */
+  background-color: #fff; /* Color de fondo predeterminado */
+  /* margin: 0.5%; */
+  min-height: 50px;
+}
+
+.grafica-containerArriba:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* Efecto de "alto relieve" más pronunciado en hover */
+}
+
+.card-selectedArriba {
+  animation: pulse 0.5s infinite alternate; /* Animación pulsante cuando se selecciona el card */
+  background-image: linear-gradient(
+    to top,
+    #dee8f0,
+    #e8edf4,
+    #f1f3f8,
+    #f8f9fb,
+    #ffffff
+  );
+  /* background-color: rgba(249,250,251);  */
+  /* background-image: linear-gradient(to top, #f9fafb, #ebf4fb, #dbeefa, #c9e9f8, #b6e4f4); */
+  /* background-color: rgba(202, 225, 240 ); */
+}
+
+/* Animación pulse */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.05);
+  }
+}
+
+/* RESPONSI MEDIA  */
+@media (min-width: 576px) {
+  .graphicsStyle{
+    max-width: 350px;
+    /* // marginLeft:45px; */
+  }
+} 
+@media (max-width: 575.9px) {
+  .grafica-containerArriba {
+    margin-bottom: 0px;
+
+    max-width: 370px;
+  }
+  .grafica-container {
+    margin-bottom: 0px;
+ 
+    max-width: 370px;
+  }
+  .grafica-Actividades{
+    margin-bottom: 0px;
+ 
+    max-width: 330px;
+  }
+  .graphicsStyle{
+    max-width: 250px;
+    /* // marginLeft:45px; */
+
+}
+}
+
+
+
+
+
+/* @media (max-width: 1200px) {
+  .buttonArribaNumber {
+    font-size: 35px;
+    margin-left: 100px;
+  }
+  .imagenPangeaLogo {
+    left: 15%;
+  }
+} */

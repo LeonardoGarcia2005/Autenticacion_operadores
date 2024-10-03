@@ -1,0 +1,38 @@
+type User {
+  id: ID
+  username: String
+  password: String
+  email: String
+  role_id: ID
+  last_login: dateTime
+  last_ip: String
+  created_at: dateTime
+  updated_at: dateTime
+}
+
+type userWithToken {
+  id: ID
+  username: String
+  email: String
+  role_id: ID
+  last_login: dateTime
+  last_ip: String
+  token: String
+}
+
+input userInput {
+  username: String
+  password: String
+  email: String
+  role_id: ID
+}
+
+input LoginInput {
+  username: String
+  password: String
+}
+
+type VerifyTokenResponse {
+  user: User
+  success: Boolean!
+}

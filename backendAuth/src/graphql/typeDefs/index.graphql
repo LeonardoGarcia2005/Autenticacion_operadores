@@ -1,0 +1,19 @@
+scalar JSON
+scalar miTimestamp
+scalar dateTime
+
+type Query {
+  # Buscar Usuario por ID
+  buscarUsuarioPorId(id: ID!): User
+}
+
+type Mutation {
+  #crear usuario
+  createUser(input: userInput): User
+
+  # Usuario Login
+  loginUser(loginInput: LoginInput): userWithToken
+
+  #verificación del token
+  verifyToken(token: String!): VerifyTokenResponse
+}

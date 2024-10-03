@@ -1,0 +1,423 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+body {
+  /* background-color: #f3f5f9 !important;  */
+ background-color: #0d6efd24 !important; 
+} 
+.no-line {
+  text-decoration: none;
+}
+.bg-dark {
+  background-color: #fff !important;
+}
+.text-light {
+  color: #ffffff !important;
+}
+
+.text-dark {
+  color: #000000 !important;
+}
+.color {
+  color: #000000 !important;
+}
+/* .d-flex {
+  display: flex !important;
+}
+
+.flex-column {
+  flex-direction: column !important;
+} */
+/* 
+.justify-content-end {
+  justify-content: flex-end !important;
+}
+
+.align-items-center {
+  align-items: center !important;
+} */
+
+.mt-5 {
+  margin-top: 1.25rem !important;
+}
+
+.p-2 {
+  padding: 0.5rem !important;
+}
+
+.px-4 {
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.py-3 {
+  padding-top: 0.75rem !important;
+  padding-bottom: 0.75rem !important;
+}
+
+.position-relative {
+  position: relative !important;
+}
+
+.rounded-md {
+  border-radius: 0.375rem !important;
+}
+
+.min-vh-100 {
+  min-height: 100vh !important;
+}
+
+.w-72 {
+  width: 12rem !important;
+}
+
+.w-16 {
+  width: 6rem !important;
+}
+/* .contenido {
+  min-width: 200px;
+} */
+.whitespace-pre {
+  white-space: pre !important;
+  margin-left: 10%;
+}
+
+.hidden {
+  /* display: none !important; */
+  position: relative;
+}
+/* Style para la section  */
+.section-overflow {
+  overflow: hidden;
+}
+.w-16 .nombre {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  transition: transform 0.3s ease-in-out;
+}
+.w-16 span.hidden .nombre {
+  width: 0;
+  opacity: 0;
+  transform: translateX(12rem);
+}
+
+.titleDrawer {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+  margin: auto;
+}
+
+.titleSubModule {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 12px;
+  margin: auto;
+}
+.w-16 span.visible .nombre {
+  transform: none;
+  background: rgb(156, 221, 231);
+  padding: 0 14px;
+  left: 34px;
+  border-radius: 5px;
+  min-width: 70px;
+  height: 20px;
+  display: block;
+  box-shadow: 1px 5px 22px #85c1e9;
+}
+.visible {
+  transform: none;
+  /* display: block !important; */
+  position: relative;
+}
+
+/* Agregamos estilos para los nombres flotantes */
+.link h2 {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+/* Cuando se pasa el mouse sobre el icono, mostramos el nombre flotante */
+.link:hover h2 {
+  opacity: 1;
+  top: -30px; /* Ajusta la posición vertical */
+  left: 40px; /* Ajusta la posición horizontal */
+}
+.name {
+  font-weight: 400;
+  margin: 4%;
+}
+
+.boton {
+  border: 0;
+  padding: 0;
+  background: transparent;
+  color: #000;
+  white-space: pre !important;
+  display: block;
+  text-align: left;
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+.margin {
+  margin-left: -6%;
+}
+.tamaño {
+  width: 200%;
+}
+
+.colorIcon {
+  color: #000;
+}
+
+.list-group-item {
+  position: relative;
+  display: block;
+  color: #fff;
+  padding: 8px 6px;
+  z-index: 0;
+}
+
+.list-group-item::before {
+  position: absolute;
+  content: "";
+  width: 109%;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(40deg, rgba(214, 234, 248), #ebf5fb);
+  border-radius: 1px;
+  z-index: -1;
+  transform: scale(0);
+  transition: transform 0.4s ease-in-out; /* La duración y el tipo de animación que quieras */
+}
+
+.list-group-item:hover::before,
+.list-group-item:focus::before {
+  transform: scale(1);
+}
+.colores {
+  min-width: 50px;
+  background: linear-gradient(40deg, rgba(214, 234, 248), #ebf5fb);
+}
+/*  --------Final de los estilos de la lista del menú--------- */
+.margin-card {
+  margin-top: 26%;
+}
+.block {
+  width: 100%;
+  display: block;
+}
+.blockAgenda {
+  width: 100%;
+  /* height: 100%; */
+  margin-left: 19px;
+  display: block;
+}
+.blockArriba {
+  /* width: 70%;
+  height: 100%; */
+  display: block;
+  margin-left: 4px;
+}
+.break-word {
+  word-wrap: break-word;
+}
+.buttonArribaNumber {
+  font-weight: 400, bold;
+  display: flow;
+  text-align: center;
+  font-size: 18px;
+  margin-left: 108px;
+}
+
+.titleDrower {
+  /* font-family: "Poppins", sans-serif;
+  font-weight: 400;: 600;: 300;
+  font-style: normal; */
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  /* font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;: 600;: 300;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+ */
+}
+.imagenRedondeada {
+  margin-left: 3px;
+  border-radius: 50%;
+  transition: transform 0.5s ease; /* Transición suave para el efecto 3D */
+}
+
+.imagenRedondeada:hover,
+.imagenRedondeada:focus {
+  transform: rotateY(180deg); /* Rotación en el eje Y al pasar el cursor */
+}
+.imagenPangea {
+  width: 20px;
+  height: 20px;
+}
+.imagenUser {
+  width: 35px;
+  height: 35px;
+}
+.imagenEmpresa {
+  width: 40px;
+  height: 40px;
+}
+.image-container {
+  text-align: center; /* Alinear el contenido al centro */
+}
+.navbar {
+  justify-content: space-between;
+}
+
+.imagenPangeaLogo {
+  display: flex;
+  margin-top: 2px;
+}
+
+/* Fluter stylo  nombre de la empresa de app*/
+
+.imagenLogo {
+  display: flex;
+  align-items: center; /* Alinea los elementos verticalmente */
+}
+.company-name {
+  font-family: Roboto, sans-serif;
+  font-size: 14px; /* Tamaño del nombre de la empresa */
+
+  text-shadow: 1px 1px 2px rgba(100, 80, 80, 0.2); /* Ajusta la sombra del texto para un efecto suave */
+  /* margin-right: 10px; Ajusta el espacio entre el nombre y el icono según sea necesario */
+}
+.imagenPangeaLogoUser {
+  width: 55px;
+  height: 55px;
+}
+.content-page {
+  margin-top: 20px;
+}
+.colorButtonX{
+
+  margin-left: 98%;
+
+   background:none;
+   color: #000;
+}
+.titleEmpresa {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+.sizeButton {
+  font-size: 28px;
+}
+.buttonNotificacion {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.buttonNotificacion:hover {
+  background-color: linear-gradient(
+    to top,
+    #dee8f0,
+    #e8edf4,
+    #f1f3f8,
+    #f8f9fb,
+    #ffffff
+  ); /* Color de fondo al pasar el mouse */
+}
+
+.buttonNotificacion.selected {
+  background-color: linear-gradient(
+    to top,
+    #dee8f0,
+    #e8edf4,
+    #f1f3f8,
+    #f8f9fb,
+    #ffffff
+  ); /* Color de fondo cuando está seleccionado */
+  /* Cambio de color del texto cuando está seleccionado */
+}
+.backgrounDrower {
+   background-image: linear-gradient(to top, #f9fafb, #e3eff8, #cae4f4, #afdaee, #6d4196); 
+  background-image: linear-gradient(
+    to top,
+    #dee8f0,
+    #e8edf4,
+    #f1f3f8,
+    #f8f9fb,
+    #ffffff
+  );
+} 
+/* style={{
+  width: "100%",
+  maxWidth: "250px",
+  minHeight: "270px",
+
+  // marginLeft: "45px",
+}} */
+/* estilos del modo oscuro y modo claro */
+#dark {
+
+ background-color: #2B2B2B ;
+  /* background-image: url("../../img/fondoNegro.jpg"); */
+
+  transition: all 0.5s;
+  color: #fff;
+
+
+  .fondo-theme {
+    background-color:  #202020;
+    background-image: none;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .buttonArribaNumber {
+    font-size: 18px;
+    margin-left: 100px;
+  }
+
+  .blockArriba {
+    margin-bottom: 16px;
+  }
+  .navbar {
+    justify-content: start;
+  }
+  .sizeButton {
+    font-size: 20px;
+  }
+  .imagenEmpresa {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .buttonArribaNumber {
+    font-size: 18px;
+    margin-left: 68px;
+  }
+  .titleDrawer {
+    font-size: 18px;
+  }
+  .titleSubModule {
+    font-size: 16px;
+  }
+  /* .titleCard {
+    font-size: 14px;
+  } */
+}

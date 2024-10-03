@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+/* Clase para los titulos de los card que son de etiqueta h3 */
+.titleCard {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+/* Clase para los titulos de los modales que son de etiqueta h2 */
+.titleManners {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+/* Clase para los nombre de los input utilizados a lo largo del proyecto */
+.letterInput {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+}
+/* Clase utilizada para bajarle el tamaño de letra al placeholder de los input de la parte interna */
+.fontplaceholder::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+}
+/* Clase utilizada para bajarle el tamaño de letra al placeholder de los input cuando ya tiene informacion */
+.fontplaceholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+}
+/*Clase utilizada para los nombres de las columnas de las tabla */
+.fontTableColumn th{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+/*Clase utilizada para la informacion de las  filas de  tabla*/
+.fontTableRows td{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+
+}
+
+/* RESPONSI MEDIA  */
+
+/* @media (max-width: 576px) {
+ 
+} */
+
+@media (max-width: 1200px) {
+ 
+  .titleCard {
+    font-size: 14px;
+  }
+}

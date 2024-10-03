@@ -1,0 +1,38 @@
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #ffffff;
+  }
+  
+  .loading-image {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .loading-text {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #007bff;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+  }
+  
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }

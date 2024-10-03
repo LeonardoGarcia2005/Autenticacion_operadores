@@ -1,0 +1,96 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"); */
+/* 
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+.notifications-button {
+  position: relative;
+  display: inline-block;
+}
+
+/* .notifications-button button { */
+  /* background-color: #337ab7; */
+  /* color: #5a3333;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+} */
+.border{
+  color: #000;
+}
+.notifications-button button:hover {
+  background-color: #23527c;
+}
+
+/* Stylo para todo el div principal  de notificaciones  */
+.notifications-panel {
+
+  position: absolute;
+  top: 48px;
+  right: 0;
+  background-color: #fff;
+  border: 2px solid #ddd;
+  padding: 10px;
+  width: 350px;
+  height: 200px;
+  margin: 15px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.notifications-panel h2 {
+  margin-top: 0;
+}
+
+.notifications-panel ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.notifications-panel li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.notifications-panel li:last-child {
+  border-bottom: none;
+}
+
+.notifications-panel small {
+  color: #6d6b6b;
+}
+
+.notifications-panel span {
+  color: #337ab7;
+}
+/* Titulo Principal de notificaciones */
+.notifications-title {
+ 
+  font-family: "Roboto", sans-serif;
+  font-weight: 400 ;
+  font-style: normal;
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+}
+.notifications-subTitle {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 13px;
+  font-weight: bold;
+}
+.notifications-cuerpo {
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  margin-left: 6px;
+}
+.notifications-fecha {
+  font-size: 12px;
+  margin-left: 220px;
+}

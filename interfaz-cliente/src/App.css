@@ -1,0 +1,135 @@
+.imagenApp {
+  background-size: 100% 100%;
+  background-image: url("./img/fondo.jpg");
+}
+.imagenPangea {
+  width: 50px;
+}
+.textDecoration {
+  text-decoration: none;
+}
+.cardFormularioLogin {
+  width: 30%;
+  border-radius: 0 0 10px 10px;
+}
+.shadow-blue {
+  box-shadow: 0 0 20px #00b7ff83;
+}
+
+.cardDashboard {
+  width: 115%;
+  height: 115%;
+}
+.elemnt-icon-tag {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.letra {
+  font-size: 18%;
+}
+
+
+.bottonRegistro{
+  width: 100%;
+}
+.bottonGoogle {
+  color: white;
+  width: 100%;
+  background: linear-gradient(180deg,#be372f, #be372f);
+  color: #fff;
+  border-radius: 5%;
+}
+.bottonInstagram {
+  color: white;
+  width: 100%;
+  background: linear-gradient(180deg, #003785, #e542ce);
+  color: #fff;
+  border-radius: 5%;
+}
+.styleButtonMicrosotf {
+  padding: 10px 10px 10px 0px;
+  font-weight: 400;: 600;: 500;
+  box-sizing: border-box;
+  background-color: rgb(255, 255, 255);
+  display: inline-flex;
+  align-items: center;
+  background-color: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 2px 0px,
+    rgba(0, 0, 0, 0.24) 0px 0px 1px 0px;
+  padding: 0px;
+  border-radius: 2px;
+  border: 1px solid transparent;
+  font-size: 14px;
+  font-weight: 400;: 600;: 500;
+  font-family: Roboto, sans-serif;
+  --bs-breakpoint-xs: 0;
+  --bs-breakpoint-sm: 576px;
+  --bs-breakpoint-md: 768px;
+  --bs-breakpoint-lg: 992px;
+  --bs-breakpoint-xl: 1200px;
+  --bs-breakpoint-xxl: 1400px;
+}
+
+.alert-container {
+  background-color: rgb(255, 5, 5) !important;
+  border: 1px solid rgba(241, 6, 6, 0.81) !important;
+  box-shadow: 0px 0px 10px #ff0303 !important;
+  color: #fff !important;
+  animation: fade-in-out 3s ease-in-out;
+}
+.alert-containerUser {
+  background-color: rgb(97, 158, 228) !important;
+  border: 1px solid rgba(79, 186, 228, 0.81) !important;
+  box-shadow: 0px 0px 10px #51a7e0 !important;
+  color: #fff !important;
+  animation: fade-in-out 3s ease-in-out;
+}
+
+@keyframes fade-in-out {
+  /* / El alert empieza con opacidad 0 (invisible) / */
+  0% {
+    opacity: 0;
+  }
+  /* / El alert llega a opacidad 1 (visible) al 25% de la animación / */
+  25% {
+    opacity: 1;
+  }
+  /* / El alert mantiene la opacidad 1 hasta el 75% de la animación / */
+  75% {
+    opacity: 1;
+  }
+  /* / El alert vuelve a opacidad 0 (invisible) al final de la animación */
+  100% {
+    opacity: 0;
+  }
+}
+
+/* .ColoresFormulario{
+
+  background: linear-gradient(90deg,#5DADE2,#3CE413, #AEE413,#64B7E9);
+  border-radius: 10px 10px  0 0;
+  width: 30%;
+  height: 10px;
+
+  
+} */
+
+/* @Media para el loguin  */
+@media (min-width: 576px) {
+  .cardFormularioLogin {
+    width: 30%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .cardFormularioLogin {
+    width: 50%;
+  }
+}
+
+@media (max-width: 575.9px) {
+  .cardFormularioLogin {
+    width: 80%;
+  }
+}

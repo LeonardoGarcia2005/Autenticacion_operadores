@@ -1,0 +1,120 @@
+body {
+    display: block !important;
+    place-items: normal;
+    min-height: 100vh;
+  
+  }
+  .body-color{
+    background-color: rgba(251, 252, 252);
+  }
+  .navbar-main-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999999999;
+    width: 100%;
+    background: rgb(18, 198, 230);
+  }
+  .sidebar-right {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 6%;
+    background:white
+  }
+  .sidebar-left {
+    
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 6%;
+    background:white
+  }
+  .searchB{
+    display: flex;
+    
+  margin: auto;
+    margin-left: 270%;
+    
+  
+  }
+  /* .center-text-card{
+    --tw-text-opacity: 1;
+    color: rgb(207, 46, 46/var(--tw-text-opacity));
+    padding: 2rem;
+    text-align: center;
+    margin-left: 13%;
+    position: absolute;
+   } */
+   .diseño-card{
+    width: 11rem;
+    height: 122px;
+    padding: 2rem;
+    --tw-bg-opacity: 1;
+      background-color: rgb(31 29 43 / var(--tw-bg-opacity));
+      border-radius: 0.75rem;
+      gap: 0.5rem;
+      align-items: center;
+      flex-direction: column;
+      display: flex;
+   }
+   .imgCard svg{
+    --tw-shadow: 0 25px 50px -12px rgb(202, 225, 240  /70%);
+    --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #CAE1F0 ), var(--tw-ring-shadow, 0 0 #CAE1F0 ), var(--tw-shadow);
+    /* margin-top: -5rem; */
+    margin-left: 36%;
+    width: 100%;
+    height: 100%;
+    max-width: 86px;
+    border-radius: 100px;
+    object-fit: cover;
+    flex-direction: column;
+    border: 1px solid rgba(0,0,0,.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .bodyTamaño{
+    width: 100%;
+   }
+   .main{
+    height: 100vh;
+    margin-top: 80px;
+   }
+  .margin-card{
+    margin-top: 26%;
+  }
+  .card-img{
+     padding: 46px;
+    height: 100px;
+    position: relative;
+  }
+  .card-body{
+    background-color: rgba(202, 225, 240 );
+   
+    padding: 0;
+    min-height: 120px;
+  }
+  .margin-card.card {
+    background: transparent;
+    border: 0;
+  }
+  .borderCardRound{
+    border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px;
+  }
+  .tamañoHeader{
+    width: 100%;
+    height: 68px;
+  
+  }
+  .imagenPangea{
+    width: 50px;
+  }
